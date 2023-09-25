@@ -11,7 +11,7 @@
 		114D67872AC1774B0076376A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D67862AC1774B0076376A /* SceneDelegate.swift */; };
 		114D678E2AC1774C0076376A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114D678D2AC1774C0076376A /* Assets.xcassets */; };
 		114D67912AC1774C0076376A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114D678F2AC1774C0076376A /* LaunchScreen.storyboard */; };
-		114D67992AC177CE0076376A /* CarringCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D67982AC177CE0076376A /* CarringCollectionController.swift */; };
+		114D67992AC177CE0076376A /* CaringCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D67982AC177CE0076376A /* CaringCollectionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		114D678D2AC1774C0076376A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114D67902AC1774C0076376A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114D67922AC1774C0076376A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		114D67982AC177CE0076376A /* CarringCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarringCollectionController.swift; sourceTree = "<group>"; };
+		114D67982AC177CE0076376A /* CaringCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaringCollectionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				114D678D2AC1774C0076376A /* Assets.xcassets */,
 				114D678F2AC1774C0076376A /* LaunchScreen.storyboard */,
 				114D67922AC1774C0076376A /* Info.plist */,
-				114D67982AC177CE0076376A /* CarringCollectionController.swift */,
+				114D67982AC177CE0076376A /* CaringCollectionController.swift */,
 			);
 			path = CaringCollection;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				114D67852AC1774B0076376A /* AppDelegate.swift in Sources */,
-				114D67992AC177CE0076376A /* CarringCollectionController.swift in Sources */,
+				114D67992AC177CE0076376A /* CaringCollectionController.swift in Sources */,
 				114D67872AC1774B0076376A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

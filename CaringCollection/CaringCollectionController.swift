@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class CarringCollectionController: UIViewController {
+final class CaringCollectionController: UIViewController {
     
     static let itemWidth: CGFloat = UIScreen.main.bounds.width * 0.9
     static let itemHeight: CGFloat = UIScreen.main.bounds.height * 0.7
@@ -54,7 +54,7 @@ final class CarringCollectionController: UIViewController {
     }
     
 }
-extension CarringCollectionController: UICollectionViewDataSource {
+extension CaringCollectionController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         20
     }
@@ -68,7 +68,7 @@ extension CarringCollectionController: UICollectionViewDataSource {
     
     
 }
-extension CarringCollectionController: UICollectionViewDelegate {
+extension CaringCollectionController: UICollectionViewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let visibleRect = CGRect(origin: scrollView.contentOffset, size: scrollView.bounds.size)
         let visiblePoint = CGPoint(x: visibleRect.midX, y: visibleRect.midY)
