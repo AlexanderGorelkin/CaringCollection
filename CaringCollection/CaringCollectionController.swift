@@ -44,7 +44,8 @@ final class CaringCollectionController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "Collection"
+        navigationController?.navigationBar.prefersLargeTitles = true
         view.backgroundColor = .systemBackground
         
         view.addSubview(collectionView)
